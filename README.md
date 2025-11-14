@@ -10,10 +10,11 @@ Artifacts for finalized standard-cell libraries (layouts + views).
 
 - **CDL/**
   - `L2LAO.cdl` - Transistor-level netlists (CDL) for the **Area-Optimized** library.
+  - `L2LMO.cdl` - Transistor-level netlists (CDL) for the **Metal-usage-Optimized** library.
 
 - **GDS/**
   - `L2LAO.gds` - GDS layouts for **Area-Optimized** (L2LAO).
-  - `L2LMO.gds` - GDS layouts for **Metal-Optimized** (L2LMO).
+  - `L2LMO.gds` - GDS layouts for **Metal-usage-Optimized** (L2LMO).
 
 - **physical_view/**
   - `L2LAO.lef` - LEF view (pins, blockages/OBS, geometry) for L2LAO.
