@@ -1,0 +1,1038 @@
+0-th truth table : (False, False, False, False, False, False, False, True)
+--- idx=0: trying n=1  rows=3  cols=1
+SAT with minimum cost = 8
+  - Input 3_NAND3_ABC placed at r1c0
+Runtime: 0.001 seconds
+========================================
+1-th truth table : (False, False, False, False, False, False, True, False)
+--- idx=1: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input C placed at r3c0
+  - Input 2_NAND2_AB placed at r1c0
+Runtime: 0.015 seconds
+========================================
+2-th truth table : (False, False, False, False, False, True, True, False)
+--- idx=2: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input B placed at r3c0
+  - Input C placed at r3c2
+  - Input 3_OAI21_BCA placed at r1c0
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.043 seconds
+========================================
+3-th truth table : (False, False, False, False, False, True, True, True)
+--- idx=3: trying n=1  rows=3  cols=1
+SAT with minimum cost = 8
+  - Input 3_OAI21_BCA placed at r1c0
+Runtime: 0.002 seconds
+========================================
+4-th truth table : (False, False, False, False, True, False, False, False)
+--- idx=4: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 8
+  - Input B placed at r1c2
+  - Input C placed at r5c2
+  - Input 1_A! placed at r3c2
+Runtime: 0.073 seconds
+========================================
+5-th truth table : (False, False, False, False, True, False, False, True)
+--- idx=5: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input B placed at r3c2
+  - Input C placed at r5c2
+  - Input 1_A! placed at r1c2
+  - Input 2_NAND2_BC placed at r5c4
+  - Input CONNECTOR placed at r2c3
+  - Input CONNECTOR placed at r3c4
+Runtime: 13.579 seconds
+========================================
+6-th truth table : (False, False, False, False, True, False, True, True)
+--- idx=6: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 10
+  - Input C placed at r1c0
+  - Input 1_A! placed at r3c0
+  - Input 1_B! placed at r1c2
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.045 seconds
+========================================
+7-th truth table : (False, False, False, False, True, True, True, False)
+--- idx=7: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input B placed at r1c2
+  - Input C placed at r1c0
+  - Input 1_A! placed at r3c0
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.021 seconds
+========================================
+8-th truth table : (False, False, False, True, False, True, True, False)
+--- idx=8: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.01 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 20
+  - Input A placed at r5c4
+  - Input B placed at r5c2
+  - Input C placed at r5c0
+  - Input 2_NOR2_AB placed at r1c2
+  - Input 3_AOI21_ABC placed at r3c2
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 78.299 seconds
+========================================
+9-th truth table : (False, False, False, True, False, True, True, True)
+--- idx=9: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 14
+  - Input 2_NOR2_AC placed at r3c0
+  - Input 3_AOI21_ACB placed at r1c0
+Runtime: 0.15 seconds
+========================================
+10-th truth table : (False, False, False, True, True, False, False, False)
+--- idx=10: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.007 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r3c0
+  - Input B placed at r3c2
+  - Input C placed at r5c2
+  - Input 3_AOI21_BCA placed at r1c2
+  - Input CONNECTOR placed at r2c1
+  - Input CONNECTOR placed at r5c0
+Runtime: 12.567 seconds
+========================================
+11-th truth table : (False, False, False, True, True, False, False, True)
+--- idx=11: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.007 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input B placed at r3c2
+  - Input C placed at r5c2
+  - Input 1_A! placed at r1c2
+  - Input 2_NAND2_BC placed at r3c0
+  - Input CONNECTOR placed at r1c0
+  - Input CONNECTOR placed at r5c0
+Runtime: 14.874 seconds
+========================================
+12-th truth table : (False, False, False, True, True, False, True, False)
+--- idx=12: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input A placed at r1c2
+  - Input C placed at r1c0
+  - Input 3_AOI21_BCA placed at r3c0
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.044 seconds
+========================================
+13-th truth table : (False, False, False, True, True, False, True, True)
+--- idx=13: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input C placed at r3c0
+  - Input 1_B! placed at r3c2
+  - Input 2_NOR2_AC placed at r1c0
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.059 seconds
+========================================
+14-th truth table : (False, False, False, True, True, True, True, False)
+--- idx=14: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r5c0
+  - Input B placed at r5c2
+  - Input C placed at r5c4
+  - Input 3_AOI21_BCA placed at r3c4
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 28.642 seconds
+========================================
+15-th truth table : (False, False, False, True, True, True, True, True)
+--- idx=15: trying n=1  rows=3  cols=1
+SAT with minimum cost = 8
+  - Input 3_AOI21_BCA placed at r1c0
+Runtime: 0.002 seconds
+========================================
+16-th truth table : (False, False, True, False, True, False, False, False)
+--- idx=16: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r5c0
+  - Input B placed at r5c2
+  - Input C placed at r1c2
+  - Input 2_NOR2_AB placed at r3c2
+  - Input CONNECTOR placed at r4c1
+Runtime: 2.474 seconds
+========================================
+17-th truth table : (False, False, True, False, True, False, False, True)
+--- idx=17: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 20
+  - Input A placed at r5c2
+  - Input B placed at r5c4
+  - Input C placed at r1c2
+  - Input 2_NOR2_AB placed at r3c2
+  - Input 3_NAND3_ABC placed at r1c0
+  - Input CONNECTOR placed at r3c0
+  - Input CONNECTOR placed at r4c3
+  - Input CONNECTOR placed at r5c0
+Runtime: 40.236 seconds
+========================================
+18-th truth table : (False, False, True, False, True, False, True, False)
+--- idx=18: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input C placed at r1c2
+  - Input 2_NOR2_AB placed at r3c2
+Runtime: 0.024 seconds
+========================================
+19-th truth table : (False, False, True, False, True, False, True, True)
+--- idx=19: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 14
+  - Input C placed at r3c2
+  - Input 2_NAND2_AB placed at r3c0
+  - Input 2_NOR2_AB placed at r1c2
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.124 seconds
+========================================
+20-th truth table : (False, False, True, False, True, True, False, False)
+--- idx=20: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.011 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r5c0
+  - Input B placed at r3c2
+  - Input C placed at r3c0
+  - Input 2_NOR2_AB placed at r1c2
+  - Input CONNECTOR placed at r2c1
+  - Input CONNECTOR placed at r5c2
+Runtime: 4.953 seconds
+========================================
+21-th truth table : (False, False, True, False, True, True, False, True)
+--- idx=21: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 18
+  - Input A placed at r1c4
+  - Input B placed at r5c2
+  - Input C placed at r3c4
+  - Input 1_A! placed at r1c2
+  - Input 1_B! placed at r5c4
+  - Input 1_C! placed at r5c0
+  - Input CONNECTOR placed at r3c2
+  - Input CONNECTOR placed at r4c1
+Runtime: 44.187 seconds
+========================================
+22-th truth table : (False, False, True, False, True, True, True, False)
+--- idx=22: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 10
+  - Input B placed at r3c2
+  - Input C placed at r3c0
+  - Input 2_NOR2_AB placed at r1c2
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.042 seconds
+========================================
+23-th truth table : (False, False, True, False, True, True, True, True)
+--- idx=23: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 10
+  - Input C placed at r3c2
+  - Input 1_A! placed at r1c0
+  - Input 1_B! placed at r1c2
+  - Input CONNECTOR placed at r3c0
+Runtime: 0.036 seconds
+========================================
+24-th truth table : (False, False, True, True, True, True, False, True)
+--- idx=24: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r5c4
+  - Input B placed at r5c0
+  - Input 1_C! placed at r5c2
+  - Input 2_NOR2_AB placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 7.008 seconds
+========================================
+25-th truth table : (False, False, True, True, True, True, True, False)
+--- idx=25: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r5c2
+  - Input B placed at r5c4
+  - Input C placed at r5c0
+  - Input 2_NOR2_AB placed at r1c2
+  - Input CONNECTOR placed at r3c2
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 7.662 seconds
+========================================
+26-th truth table : (False, True, True, False, True, False, False, False)
+--- idx=26: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.01 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 18
+  - Input A placed at r5c0
+  - Input A placed at r5c4
+  - Input B placed at r3c2
+  - Input C placed at r3c4
+  - Input C placed at r5c2
+  - Input 3_NOR3_ABC placed at r1c2
+  - Input CONNECTOR placed at r2c3
+  - Input CONNECTOR placed at r4c1
+Runtime: 13.483 seconds
+========================================
+27-th truth table : (False, True, True, False, True, False, False, True)
+--- idx=27: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.06 seconds
+--- idx=19: trying n=4  rows=9  cols=7
+SAT with minimum cost = 26
+  - Input A placed at r5c6
+  - Input A placed at r7c2
+  - Input B placed at r7c0
+  - Input B placed at r7c6
+  - Input C placed at r3c2
+  - Input 1_A! placed at r5c0
+  - Input 1_A! placed at r7c4
+  - Input 1_B! placed at r5c2
+  - Input 1_B! placed at r5c4
+  - Input 1_C! placed at r3c4
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c5
+Runtime: 1933.425 seconds
+========================================
+28-th truth table : (False, True, True, False, True, False, True, False)
+--- idx=28: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r5c0
+  - Input B placed at r3c0
+  - Input C placed at r5c2
+  - Input 3_NOR3_ABC placed at r1c2
+  - Input CONNECTOR placed at r2c1
+  - Input CONNECTOR placed at r3c2
+Runtime: 4.744 seconds
+========================================
+29-th truth table : (False, True, True, False, True, False, True, True)
+--- idx=29: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 20
+  - Input A placed at r5c4
+  - Input B placed at r3c4
+  - Input C placed at r5c0
+  - Input 2_NAND2_AB placed at r5c2
+  - Input 3_NOR3_ABC placed at r1c2
+  - Input CONNECTOR placed at r2c3
+  - Input CONNECTOR placed at r3c2
+  - Input CONNECTOR placed at r4c1
+Runtime: 15.737 seconds
+========================================
+30-th truth table : (False, True, True, False, True, True, True, False)
+--- idx=30: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input B placed at r1c2
+  - Input C placed at r1c0
+  - Input 3_NOR3_ABC placed at r3c0
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.048 seconds
+========================================
+31-th truth table : (False, True, True, False, True, True, True, True)
+--- idx=31: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.007 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input B placed at r5c4
+  - Input C placed at r5c2
+  - Input 1_A! placed at r3c0
+  - Input 2_NOR2_BC placed at r1c2
+  - Input CONNECTOR placed at r1c0
+  - Input CONNECTOR placed at r3c2
+  - Input CONNECTOR placed at r4c3
+  - Input CONNECTOR placed at r5c0
+Runtime: 11.867 seconds
+========================================
+32-th truth table : (False, True, True, True, True, True, True, False)
+--- idx=32: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r5c0
+  - Input B placed at r5c2
+  - Input C placed at r5c4
+  - Input 3_NOR3_ABC placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 10.957 seconds
+========================================
+33-th truth table : (False, True, True, True, True, True, True, True)
+--- idx=33: trying n=1  rows=3  cols=1
+SAT with minimum cost = 8
+  - Input 3_NOR3_ABC placed at r1c0
+Runtime: 0.002 seconds
+========================================
+34-th truth table : (True, False, False, False, False, False, False, False)
+--- idx=34: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 6
+  - Input A placed at r1c4
+  - Input B placed at r3c4
+  - Input C placed at r5c4
+Runtime: 0.062 seconds
+========================================
+35-th truth table : (True, False, False, False, False, False, False, True)
+--- idx=35: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r3c0
+  - Input B placed at r1c0
+  - Input C placed at r5c0
+  - Input 3_NAND3_ABC placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r5c2
+Runtime: 10.183 seconds
+========================================
+36-th truth table : (True, False, False, False, False, False, True, False)
+--- idx=36: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r5c2
+  - Input B placed at r3c2
+  - Input C placed at r1c2
+  - Input 2_NAND2_AB placed at r3c4
+  - Input CONNECTOR placed at r2c3
+  - Input CONNECTOR placed at r5c4
+Runtime: 3.802 seconds
+========================================
+37-th truth table : (True, False, False, False, False, False, True, True)
+--- idx=37: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r1c0
+  - Input B placed at r3c0
+  - Input C placed at r5c0
+  - Input 2_NAND2_AB placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r5c2
+Runtime: 4.233 seconds
+========================================
+38-th truth table : (True, False, False, False, False, True, True, False)
+--- idx=38: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 18
+  - Input A placed at r5c0
+  - Input B placed at r3c0
+  - Input B placed at r5c4
+  - Input C placed at r1c0
+  - Input C placed at r5c2
+  - Input 3_OAI21_BCA placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r4c3
+Runtime: 16.983 seconds
+========================================
+39-th truth table : (True, False, False, False, False, True, True, True)
+--- idx=39: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r3c2
+  - Input B placed at r1c2
+  - Input C placed at r5c2
+  - Input 3_OAI21_BCA placed at r5c0
+  - Input CONNECTOR placed at r1c0
+  - Input CONNECTOR placed at r3c0
+Runtime: 9.486 seconds
+========================================
+40-th truth table : (True, False, False, False, True, False, False, True)
+--- idx=40: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input B placed at r1c2
+  - Input C placed at r3c2
+  - Input 3_NAND3_ABC placed at r3c0
+  - Input CONNECTOR placed at r1c0
+Runtime: 0.021 seconds
+========================================
+41-th truth table : (True, False, False, False, True, False, True, False)
+--- idx=41: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input B placed at r1c2
+  - Input C placed at r3c2
+  - Input 1_A! placed at r1c0
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.018 seconds
+========================================
+42-th truth table : (True, False, False, False, True, False, True, True)
+--- idx=42: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 10
+  - Input B placed at r1c2
+  - Input C placed at r3c2
+  - Input 2_NAND2_AB placed at r3c0
+  - Input CONNECTOR placed at r1c0
+Runtime: 0.037 seconds
+========================================
+43-th truth table : (True, False, False, False, True, True, True, False)
+--- idx=43: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input B placed at r3c2
+  - Input C placed at r1c4
+  - Input C placed at r5c2
+  - Input 1_A! placed at r5c0
+  - Input 1_A! placed at r5c4
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r3c4
+  - Input CONNECTOR placed at r4c1
+Runtime: 9.774 seconds
+========================================
+44-th truth table : (True, False, False, False, True, True, True, True)
+--- idx=44: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input B placed at r3c0
+  - Input C placed at r1c0
+  - Input 1_A! placed at r3c2
+  - Input CONNECTOR placed at r1c2
+Runtime: 0.018 seconds
+========================================
+45-th truth table : (True, False, False, True, False, True, True, False)
+--- idx=45: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.075 seconds
+--- idx=19: trying n=4  rows=9  cols=7
+SAT with minimum cost = 24
+  - Input A placed at r5c6
+  - Input A placed at r7c2
+  - Input B placed at r7c0
+  - Input B placed at r7c6
+  - Input C placed at r3c4
+  - Input 2_NAND2_AB placed at r5c4
+  - Input 3_OAI21_ABC placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r4c5
+  - Input CONNECTOR placed at r5c2
+  - Input CONNECTOR placed at r6c1
+  - Input CONNECTOR placed at r7c4
+Runtime: 11560.092 seconds
+========================================
+46-th truth table : (True, False, False, True, False, True, True, True)
+--- idx=46: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.007 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 20
+  - Input A placed at r5c4
+  - Input B placed at r3c4
+  - Input C placed at r1c4
+  - Input 2_NOR2_AC placed at r1c2
+  - Input 3_AOI21_ACB placed at r3c2
+  - Input CONNECTOR placed at r5c2
+Runtime: 42.763 seconds
+========================================
+47-th truth table : (True, False, False, True, True, False, False, False)
+--- idx=47: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input A placed at r3c2
+  - Input B placed at r3c0
+  - Input C placed at r1c0
+  - Input 2_NAND2_BC placed at r1c2
+Runtime: 0.025 seconds
+========================================
+48-th truth table : (True, False, False, True, True, False, True, False)
+--- idx=48: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 16
+  - Input A placed at r1c2
+  - Input B placed at r5c0
+  - Input C placed at r1c4
+  - Input C placed at r3c0
+  - Input 3_AOI21_BCA placed at r3c2
+  - Input CONNECTOR placed at r2c1
+  - Input CONNECTOR placed at r2c3
+  - Input CONNECTOR placed at r5c2
+Runtime: 27.633 seconds
+========================================
+49-th truth table : (True, False, False, True, True, False, True, True)
+--- idx=49: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input B placed at r1c2
+  - Input C placed at r3c2
+  - Input 3_OAI21_ACB placed at r1c0
+  - Input CONNECTOR placed at r3c0
+Runtime: 0.042 seconds
+========================================
+50-th truth table : (True, False, False, True, True, True, True, False)
+--- idx=50: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 18
+  - Input A placed at r5c4
+  - Input B placed at r1c2
+  - Input B placed at r5c0
+  - Input C placed at r3c2
+  - Input C placed at r5c2
+  - Input 3_AOI21_BCA placed at r3c4
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 23.325 seconds
+========================================
+51-th truth table : (True, False, False, True, True, True, True, True)
+--- idx=51: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input B placed at r3c2
+  - Input C placed at r1c2
+  - Input 3_AOI21_BCA placed at r3c0
+  - Input CONNECTOR placed at r1c0
+Runtime: 0.022 seconds
+========================================
+52-th truth table : (True, False, True, False, True, False, False, False)
+--- idx=52: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 6
+  - Input A placed at r1c0
+  - Input B placed at r1c2
+  - Input C placed at r3c0
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.014 seconds
+========================================
+53-th truth table : (True, False, True, False, True, False, False, True)
+--- idx=53: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r5c2
+  - Input B placed at r5c0
+  - Input C placed at r3c2
+  - Input 3_NAND3_ABC placed at r3c4
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r2c3
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r5c4
+Runtime: 37.189 seconds
+========================================
+54-th truth table : (True, False, True, False, True, False, True, True)
+--- idx=54: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input C placed at r1c0
+  - Input 2_NAND2_AB placed at r1c2
+  - Input CONNECTOR placed at r2c1
+  - Input CONNECTOR placed at r3c0
+Runtime: 0.024 seconds
+========================================
+55-th truth table : (True, False, True, False, True, True, False, False)
+--- idx=55: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 10
+  - Input A placed at r1c2
+  - Input B placed at r3c0
+  - Input C placed at r3c2
+  - Input 1_A! placed at r1c0
+Runtime: 0.028 seconds
+========================================
+56-th truth table : (True, False, True, False, True, True, False, True)
+--- idx=56: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r5c0
+  - Input B placed at r5c2
+  - Input C placed at r3c2
+  - Input 2_NAND2_AC placed at r3c4
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r5c4
+Runtime: 25.064 seconds
+========================================
+57-th truth table : (True, False, True, False, True, True, True, False)
+--- idx=57: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input B placed at r1c2
+  - Input C placed at r1c0
+  - Input 1_A! placed at r3c2
+  - Input CONNECTOR placed at r3c0
+Runtime: 0.02 seconds
+========================================
+58-th truth table : (True, False, True, True, True, True, False, False)
+--- idx=58: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 12
+  - Input A placed at r3c2
+  - Input B placed at r3c0
+  - Input C placed at r1c0
+  - Input 2_NOR2_AB placed at r1c2
+  - Input CONNECTOR placed at r2c1
+Runtime: 0.031 seconds
+========================================
+59-th truth table : (True, False, True, True, True, True, False, True)
+--- idx=59: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 14
+  - Input A placed at r5c2
+  - Input B placed at r5c0
+  - Input C placed at r1c2
+  - Input 3_OAI21_ABC placed at r5c4
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r3c2
+  - Input CONNECTOR placed at r3c4
+  - Input CONNECTOR placed at r4c1
+Runtime: 24.329 seconds
+========================================
+60-th truth table : (True, False, True, True, True, True, True, False)
+--- idx=60: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r5c2
+  - Input B placed at r5c4
+  - Input C placed at r1c0
+  - Input 2_NOR2_AB placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r3c0
+  - Input CONNECTOR placed at r4c3
+  - Input CONNECTOR placed at r5c0
+Runtime: 16.944 seconds
+========================================
+61-th truth table : (True, False, True, True, True, True, True, True)
+--- idx=61: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 8
+  - Input C placed at r1c2
+  - Input 2_NOR2_AB placed at r1c0
+  - Input CONNECTOR placed at r3c0
+  - Input CONNECTOR placed at r3c2
+Runtime: 0.021 seconds
+========================================
+62-th truth table : (True, True, True, False, True, False, False, False)
+--- idx=62: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.009 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 10
+  - Input A placed at r5c2
+  - Input A placed at r5c4
+  - Input B placed at r1c4
+  - Input B placed at r5c0
+  - Input C placed at r3c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r3c4
+  - Input CONNECTOR placed at r4c1
+Runtime: 3.47 seconds
+========================================
+63-th truth table : (True, True, True, False, True, False, False, True)
+--- idx=63: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.047 seconds
+--- idx=19: trying n=4  rows=9  cols=7
+SAT with minimum cost = 18
+  - Input A placed at r7c2
+  - Input A placed at r7c6
+  - Input B placed at r5c2
+  - Input B placed at r7c4
+  - Input C placed at r5c4
+  - Input 3_NAND3_ABC placed at r7c0
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r3c4
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+  - Input CONNECTOR placed at r5c0
+  - Input CONNECTOR placed at r6c5
+Runtime: 1551.044 seconds
+========================================
+64-th truth table : (True, True, True, False, True, False, True, False)
+--- idx=64: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+SAT with minimum cost = 6
+  - Input A placed at r3c2
+  - Input B placed at r1c2
+  - Input C placed at r3c0
+  - Input CONNECTOR placed at r1c0
+Runtime: 0.014 seconds
+========================================
+65-th truth table : (True, True, True, False, True, False, True, True)
+--- idx=65: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 12
+  - Input A placed at r3c0
+  - Input B placed at r1c0
+  - Input C placed at r5c4
+  - Input 2_NAND2_AB placed at r5c2
+  - Input CONNECTOR placed at r1c2
+  - Input CONNECTOR placed at r3c2
+  - Input CONNECTOR placed at r4c3
+  - Input CONNECTOR placed at r5c0
+Runtime: 13.351 seconds
+========================================
+66-th truth table : (True, True, True, False, True, True, True, True)
+--- idx=66: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 8
+  - Input B placed at r5c2
+  - Input C placed at r5c0
+  - Input 1_A! placed at r5c4
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r3c4
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 1.564 seconds
+========================================
+67-th truth table : (True, True, True, True, True, True, True, False)
+--- idx=67: trying n=1  rows=3  cols=1
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.001 seconds
+--- idx=19: trying n=2  rows=5  cols=3
+UNSAT: No valid assignment under current constraints.
+Runtime: 0.008 seconds
+--- idx=19: trying n=3  rows=7  cols=5
+SAT with minimum cost = 6
+  - Input A placed at r5c2
+  - Input B placed at r5c0
+  - Input C placed at r5c4
+  - Input CONNECTOR placed at r1c4
+  - Input CONNECTOR placed at r3c4
+  - Input CONNECTOR placed at r4c1
+  - Input CONNECTOR placed at r4c3
+Runtime: 0.712 seconds
+========================================

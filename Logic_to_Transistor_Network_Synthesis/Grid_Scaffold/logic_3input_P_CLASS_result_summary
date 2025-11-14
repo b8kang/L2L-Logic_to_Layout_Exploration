@@ -1,0 +1,69 @@
+         Binary  Decimal       Row:3/Col:1        Row:5/Col:3         Row:7/Col:5            Row:9/Col:7
+0-th   00000001        1  SAT / 8 / 0.001s            No data             No data                No data
+1-th   00000010        2    UNSAT / 0.001s   SAT / 8 / 0.015s             No data                No data
+2-th   00000110        6    UNSAT / 0.001s  SAT / 12 / 0.043s             No data                No data
+3-th   00000111        7  SAT / 8 / 0.002s            No data             No data                No data
+4-th   00001000        8    UNSAT / 0.001s     UNSAT / 0.008s    SAT / 8 / 0.073s                No data
+5-th   00001001        9    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 14 / 13.579s                No data
+6-th   00001011       11    UNSAT / 0.001s  SAT / 10 / 0.045s             No data                No data
+7-th   00001110       14    UNSAT / 0.001s   SAT / 8 / 0.021s             No data                No data
+8-th   00010110       22    UNSAT / 0.001s     UNSAT / 0.010s  SAT / 20 / 78.299s                No data
+9-th   00010111       23    UNSAT / 0.001s  SAT / 14 / 0.150s             No data                No data
+10-th  00011000       24    UNSAT / 0.001s     UNSAT / 0.007s  SAT / 14 / 12.567s                No data
+11-th  00011001       25    UNSAT / 0.001s     UNSAT / 0.007s  SAT / 14 / 14.874s                No data
+12-th  00011010       26    UNSAT / 0.001s  SAT / 12 / 0.044s             No data                No data
+13-th  00011011       27    UNSAT / 0.001s  SAT / 12 / 0.059s             No data                No data
+14-th  00011110       30    UNSAT / 0.001s     UNSAT / 0.009s  SAT / 14 / 28.642s                No data
+15-th  00011111       31  SAT / 8 / 0.002s            No data             No data                No data
+16-th  00101000       40    UNSAT / 0.001s     UNSAT / 0.009s   SAT / 12 / 2.474s                No data
+17-th  00101001       41    UNSAT / 0.001s     UNSAT / 0.009s  SAT / 20 / 40.236s                No data
+18-th  00101010       42    UNSAT / 0.001s   SAT / 8 / 0.024s             No data                No data
+19-th  00101011       43    UNSAT / 0.001s  SAT / 14 / 0.124s             No data                No data
+20-th  00101100       44    UNSAT / 0.001s     UNSAT / 0.011s   SAT / 12 / 4.953s                No data
+21-th  00101101       45    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 18 / 44.187s                No data
+22-th  00101110       46    UNSAT / 0.001s  SAT / 10 / 0.042s             No data                No data
+23-th  00101111       47    UNSAT / 0.001s  SAT / 10 / 0.036s             No data                No data
+24-th  00111101       61    UNSAT / 0.001s     UNSAT / 0.009s   SAT / 14 / 7.008s                No data
+25-th  00111110       62    UNSAT / 0.001s     UNSAT / 0.009s   SAT / 12 / 7.662s                No data
+26-th  01101000      104    UNSAT / 0.001s     UNSAT / 0.010s  SAT / 18 / 13.483s                No data
+27-th  01101001      105    UNSAT / 0.001s     UNSAT / 0.008s      UNSAT / 0.060s   SAT / 26 / 1933.425s
+28-th  01101010      106    UNSAT / 0.001s     UNSAT / 0.009s   SAT / 14 / 4.744s                No data
+29-th  01101011      107    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 20 / 15.737s                No data
+30-th  01101110      110    UNSAT / 0.001s  SAT / 12 / 0.048s             No data                No data
+31-th  01101111      111    UNSAT / 0.001s     UNSAT / 0.007s  SAT / 14 / 11.867s                No data
+32-th  01111110      126    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 14 / 10.957s                No data
+33-th  01111111      127  SAT / 8 / 0.002s            No data             No data                No data
+34-th  10000000      128    UNSAT / 0.001s     UNSAT / 0.009s    SAT / 6 / 0.062s                No data
+35-th  10000001      129    UNSAT / 0.001s     UNSAT / 0.009s  SAT / 14 / 10.183s                No data
+36-th  10000010      130    UNSAT / 0.001s     UNSAT / 0.008s   SAT / 12 / 3.802s                No data
+37-th  10000011      131    UNSAT / 0.001s     UNSAT / 0.008s   SAT / 12 / 4.233s                No data
+38-th  10000110      134    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 18 / 16.983s                No data
+39-th  10000111      135    UNSAT / 0.001s     UNSAT / 0.008s   SAT / 14 / 9.486s                No data
+40-th  10001001      137    UNSAT / 0.001s  SAT / 12 / 0.021s             No data                No data
+41-th  10001010      138    UNSAT / 0.001s   SAT / 8 / 0.018s             No data                No data
+42-th  10001011      139    UNSAT / 0.001s  SAT / 10 / 0.037s             No data                No data
+43-th  10001110      142    UNSAT / 0.001s     UNSAT / 0.009s   SAT / 12 / 9.774s                No data
+44-th  10001111      143    UNSAT / 0.001s   SAT / 8 / 0.018s             No data                No data
+45-th  10010110      150    UNSAT / 0.001s     UNSAT / 0.008s      UNSAT / 0.075s  SAT / 24 / 11560.092s
+46-th  10010111      151    UNSAT / 0.001s     UNSAT / 0.007s  SAT / 20 / 42.763s                No data
+47-th  10011000      152    UNSAT / 0.001s  SAT / 12 / 0.025s             No data                No data
+48-th  10011010      154    UNSAT / 0.001s     UNSAT / 0.009s  SAT / 16 / 27.633s                No data
+49-th  10011011      155    UNSAT / 0.001s  SAT / 12 / 0.042s             No data                No data
+50-th  10011110      158    UNSAT / 0.001s     UNSAT / 0.009s  SAT / 18 / 23.325s                No data
+51-th  10011111      159    UNSAT / 0.001s  SAT / 12 / 0.022s             No data                No data
+52-th  10101000      168    UNSAT / 0.001s   SAT / 6 / 0.014s             No data                No data
+53-th  10101001      169    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 14 / 37.189s                No data
+54-th  10101011      171    UNSAT / 0.001s   SAT / 8 / 0.024s             No data                No data
+55-th  10101100      172    UNSAT / 0.001s  SAT / 10 / 0.028s             No data                No data
+56-th  10101101      173    UNSAT / 0.001s     UNSAT / 0.009s  SAT / 12 / 25.064s                No data
+57-th  10101110      174    UNSAT / 0.001s   SAT / 8 / 0.020s             No data                No data
+58-th  10111100      188    UNSAT / 0.001s  SAT / 12 / 0.031s             No data                No data
+59-th  10111101      189    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 14 / 24.329s                No data
+60-th  10111110      190    UNSAT / 0.001s     UNSAT / 0.009s  SAT / 12 / 16.944s                No data
+61-th  10111111      191    UNSAT / 0.001s   SAT / 8 / 0.021s             No data                No data
+62-th  11101000      232    UNSAT / 0.001s     UNSAT / 0.009s   SAT / 10 / 3.470s                No data
+63-th  11101001      233    UNSAT / 0.001s     UNSAT / 0.008s      UNSAT / 0.047s   SAT / 18 / 1551.044s
+64-th  11101010      234    UNSAT / 0.001s   SAT / 6 / 0.014s             No data                No data
+65-th  11101011      235    UNSAT / 0.001s     UNSAT / 0.008s  SAT / 12 / 13.351s                No data
+66-th  11101111      239    UNSAT / 0.001s     UNSAT / 0.008s    SAT / 8 / 1.564s                No data
+67-th  11111110      254    UNSAT / 0.001s     UNSAT / 0.008s    SAT / 6 / 0.712s                No data
