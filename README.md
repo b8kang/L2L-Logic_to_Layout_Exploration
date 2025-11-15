@@ -70,9 +70,6 @@ Summaries from transistor network synthesis under different stack bounds and inp
 
 - **Full Detail Results** : We provide aggregate statistics for transistor-network synthesis in this repository. Detailed per-function artifacts including multiple optimal solutions and full solver log will be released after paper acceptance.
 
-# Reference
-C.-K. Cheng, A. B. Kahng, B. Kang, S. Kang, J. Lee, and B. Lin, “SO3-Cell: Standard Cell Layout Automation Framework for Simultaneous Optimization of Topology, Placement, and Routing,” in Proceedings of International Conference on Computer-Aided Design (ICCAD) (2025). (https://github.com/ckchengucsd/SO3-Cell)
-
 ## Reference
 C.-K. Cheng, A. B. Kahng, B. Kang, S. Kang, J. Lee, and B. Lin, (2025).
 *SO3-Cell: Standard Cell Layout Automation Framework for Simultaneous Optimization of Topology, Placement, and Routing*.
