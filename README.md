@@ -21,8 +21,8 @@ Artifacts for finalized standard-cell libraries (layouts + views).
   - `L2LMO.lef` - LEF view for L2LMO.
 
 - **timing_power_view/**
-  - `L2LAO_tt_0.7_25_nldm.lib` - Liberty (NLDM) @ TT/0.7 V/25 ¡ÆC for L2LAO.
-  - `L2LMO_tt_0.7_25_nldm.lib` - Liberty (NLDM) @ TT/0.7 V/25 ¡ÆC for L2LMO.
+  - `L2LAO_tt_0.7_25_nldm.lib` - Liberty (NLDM) @ TT/0.7V/25C for L2LAO.
+  - `L2LMO_tt_0.7_25_nldm.lib` - Liberty (NLDM) @ TT/0.7V/25C for L2LMO.
   - `L2LAO_tt_0.7_25_nldm.db` - Compiled Liberty (.db) for Synopsys tools (L2LAO).
   - `L2LMO_tt_0.7_25_nldm.db` - Compiled Liberty (.db) for Synopsys tools (L2LMO).
 
@@ -35,36 +35,46 @@ Artifacts for finalized standard-cell libraries (layouts + views).
 
 Summaries from transistor network synthesis under different stack bounds and input pools.
 
-- **2stack_O/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with stack height **M=2**, pool **O** (one-stage gates without permutation closure).
+- **2stack_DP/**
+  - `all_logs_summary.txt` - transistor network synthesis summary with stack height **M=2**, pool **DP** (Dual polarity).
 
 - **2stack_Op/**
   - `all_logs_summary.txt` - transistor network synthesis summary with stack height **M=2**, pool **Op** (permutation-closed).
 
-- **3stack_O/**
+- **3stack_DP/**
   - `all_logs_summary.txt` - transistor network synthesis summary with **M=3**, pool **O**.
 
 - **3stack_Op/**
   - `all_logs_summary.txt` - transistor network synthesis summary with **M=3**, pool **Op**.
 
-- **4stack_O/**
+- **4stack_DP/**
   - `all_logs_summary.txt` - transistor network synthesis summary with **M=4**, pool **O**.
 
 - **4stack_Op/**
   - `all_logs_summary.txt` - transistor network synthesis summary with **M=4**, pool **Op**.
 
 - **Grid_Scaffold/**
-  - `logic_3input_P_CLASS_result_summary` - Totals for series-parallel/planar-template runs (coverage, counts).
-  - `logic_3input_P_CLASS_result_detail` - Per-function details for the grid-scaffold (series-parallel) template.
+  - `logic_3input_P_CLASS_result_summary` - Synthesis summary for series-parallel-only runs (synthesis statistics).
 
 ---
 
 ## Notes
 
-- **O vs. Op**:  
-  - **O** = one-stage gates from primaries (no permutation closure).  
+- **DP vs. Op**:  
+  - **DP** = Dual Polarity (Primary and it's inversion).  
   - **Op** = permutation-closed pool (P-equivalent instantiations deduplicated).
 
 - **Stack bound M**: maximum allowed series transistor count during PMOS synthesis.
 
 - **CPP**: contact-poly-pitch, used as the basic area unit for layouts.
+
+- **Full Detail Results** : We provide aggregate statistics for transistor-network synthesis in this repository. Detailed per-function artifacts including multiple optimal solutions and full solver log will be released after paper acceptance.
+
+# Reference
+C.-K. Cheng, A. B. Kahng, B. Kang, S. Kang, J. Lee, and B. Lin, “SO3-Cell: Standard Cell Layout Automation Framework for Simultaneous Optimization of Topology, Placement, and Routing,” in Proceedings of International Conference on Computer-Aided Design (ICCAD) (2025). (https://github.com/ckchengucsd/SO3-Cell)
+
+## Reference
+C.-K. Cheng, A. B. Kahng, B. Kang, S. Kang, J. Lee, and B. Lin, (2025).
+*SO3-Cell: Standard Cell Layout Automation Framework for Simultaneous Optimization of Topology, Placement, and Routing*.
+In **Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD)**.  
+[GitHub](https://github.com/ckchengucsd/SO3-Cell)
