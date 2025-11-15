@@ -69,9 +69,3 @@ Summaries from transistor network synthesis under different stack bounds and inp
 - **CPP**: contact-poly-pitch, used as the basic area unit for layouts.
 
 - **Full Detail Results** : We provide aggregate statistics for transistor-network synthesis in this repository. Detailed per-function artifacts including multiple optimal solutions and full solver log will be released after paper acceptance.
-
-## Reference
-C.-K. Cheng, A. B. Kahng, B. Kang, S. Kang, J. Lee, and B. Lin, (2025).
-*SO3-Cell: Standard Cell Layout Automation Framework for Simultaneous Optimization of Topology, Placement, and Routing*.
-In **Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD)**.  
-[GitHub](https://github.com/ckchengucsd/SO3-Cell)
