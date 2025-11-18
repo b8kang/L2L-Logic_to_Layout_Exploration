@@ -42,13 +42,13 @@ Summaries from transistor network synthesis under different stack bounds and inp
   - `all_logs_summary.txt` - transistor network synthesis summary with stack height **M=2**, pool **Op** (permutation-closed).
 
 - **3stack_DP/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with **M=3**, pool **O**.
+  - `all_logs_summary.txt` - transistor network synthesis summary with **M=3**, pool **DP**.
 
 - **3stack_Op/**
   - `all_logs_summary.txt` - transistor network synthesis summary with **M=3**, pool **Op**.
 
 - **4stack_DP/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with **M=4**, pool **O**.
+  - `all_logs_summary.txt` - transistor network synthesis summary with **M=4**, pool **DP**.
 
 - **4stack_Op/**
   - `all_logs_summary.txt` - transistor network synthesis summary with **M=4**, pool **Op**.
