@@ -1,3 +1,21 @@
+# L2L: Logic to Layout Exploration of Standard Cell Library Design
+
+This repository contains artifacts and summaries associated with the following paper:
+
+**L2L: Logic to Layout Exploration of Standard Cell Library Design**  
+Byeonggon Kang, Alan Mishchenko, Masahiro Fujita, Bill Lin, and Chung-Kuan Cheng  
+Will be presented at **DAC 2026**, Long Beach, California, USA
+
+- **Byeonggon Kang**  
+  University of California, San Diego  
+  La Jolla, California, USA  
+  b8kang@ucsd.edu  
+
+- **Chung-Kuan Cheng**  
+  University of California, San Diego  
+  La Jolla, California, USA  
+  ckcheng@ucsd.edu  
+
 # Repository Contents
 
 This README explains what each file and folder contains.
@@ -68,4 +86,4 @@ Summaries from transistor network synthesis under different stack bounds and inp
 
 - **CPP**: contact-poly-pitch, used as the basic area unit for layouts.
 
-- **Full Detail Results** : We provide aggregate statistics for transistor-network synthesis in this repository. Detailed per-function artifacts including multiple optimal solutions and full solver log will be released after paper acceptance.
+- **Full Detail Results** : We provide aggregate statistics and detailed per-function artifacts including multiple optimal solutions for transistor-network synthesis in this repository.

@@ -1,0 +1,247 @@
+2-input functions with AB : 
+Series/Parallel: no
+Bubble: on
+Generated 8 unique functions.
+Processing patterns from 0 to 7
+
+#####################
+0-th truth table : 1000
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.002s
+Finish 1 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 14
+[Solve]      0.003s
+  Trying with num_net = 1, gate_budget = 14
+[Solve]      0.003s
+Solution found!
+Finish 2 transistors loop
+Minimum cost: 2
+Current Solution :
+(VDD, A, n1) (n1, B, Y) 
+
+#####################
+1-th truth table : 0010
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.001s
+Finish 1 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 14
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 14
+[Solve]      0.004s
+Solution found!
+Finish 2 transistors loop
+Minimum cost: 3
+Current Solution :
+(VDD, 1_A!, n1) (n1, B, Y) 
+
+#####################
+2-th truth table : 0110
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.001s
+Finish 1 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 14
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 14
+[Solve]      0.003s
+Finish 2 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 3 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 13
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 13
+[Solve]      0.007s
+Solution found!
+  Trying with num_net = 2, gate_budget = 2
+[Solve]      0.001s
+Finish 3 transistors loop
+Minimum cost: 5
+Current Solution :
+(VDD, A, n1) (VDD, B, n1) (n1, 2_NOR2_AB, Y) 
+
+==================================================
+Trying with num_tr = 4 (current max_num_tr = 5)
+  Trying with num_net = 0, gate_budget = 1
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 1
+[Solve]      0.005s
+  Trying with num_net = 2, gate_budget = 1
+[Solve]      0.006s
+  Trying with num_net = 3, gate_budget = 1
+[Solve]      0.005s
+Finish 4 transistors loop
+Minimum cost: 5
+Current Solution :
+(VDD, A, n1) (VDD, B, n1) (n1, 2_NOR2_AB, Y) 
+
+#####################
+3-th truth table : 1110
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.001s
+Finish 1 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 14
+[Solve]      0.002s
+Solution found!
+  Trying with num_net = 1, gate_budget = 0
+[Solve]      0.002s
+Finish 2 transistors loop
+Minimum cost: 2
+Current Solution :
+(VDD, A, Y) (VDD, B, Y) 
+
+#####################
+4-th truth table : 0001
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.002s
+Solution found!
+Finish 1 transistors loop
+Minimum cost: 3
+Current Solution :
+(VDD, 2_NAND2_AB, Y) 
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 3)
+  Trying with num_net = 0, gate_budget = 1
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 1
+[Solve]      0.002s
+Finish 2 transistors loop
+Minimum cost: 3
+Current Solution :
+(VDD, 2_NAND2_AB, Y) 
+
+#####################
+5-th truth table : 1001
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.001s
+Finish 1 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 14
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 14
+[Solve]      0.002s
+Finish 2 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 3 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 13
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 13
+[Solve]      0.005s
+Solution found!
+  Trying with num_net = 2, gate_budget = 2
+[Solve]      0.001s
+Finish 3 transistors loop
+Minimum cost: 5
+Current Solution :
+(VDD, 2_NAND2_AB, Y) (VDD, A, n1) (n1, B, Y) 
+
+==================================================
+Trying with num_tr = 4 (current max_num_tr = 5)
+  Trying with num_net = 0, gate_budget = 1
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 1
+[Solve]      0.006s
+  Trying with num_net = 2, gate_budget = 1
+[Solve]      0.005s
+  Trying with num_net = 3, gate_budget = 1
+[Solve]      0.005s
+Finish 4 transistors loop
+Minimum cost: 5
+Current Solution :
+(VDD, 2_NAND2_AB, Y) (VDD, A, n1) (n1, B, Y) 
+
+#####################
+6-th truth table : 1011
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.001s
+Finish 1 transistors loop
+Minimum cost: -2147483648
+Current Solution :
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 14
+[Solve]      0.003s
+Solution found!
+  Trying with num_net = 1, gate_budget = 1
+[Solve]      0.002s
+Finish 2 transistors loop
+Minimum cost: 3
+Current Solution :
+(VDD, 1_A!, Y) (VDD, B, Y) 
+
+#####################
+7-th truth table : 0111
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.002s
+Solution found!
+Finish 1 transistors loop
+Minimum cost: 3
+Current Solution :
+(VDD, 2_NOR2_AB, Y) 
+
+==================================================
+Trying with num_tr = 2 (current max_num_tr = 3)
+  Trying with num_net = 0, gate_budget = 1
+[Solve]      0.002s
+  Trying with num_net = 1, gate_budget = 1
+[Solve]      0.002s
+Finish 2 transistors loop
+Minimum cost: 3
+Current Solution :
+(VDD, 2_NOR2_AB, Y) 
+
+Total execution time: 0.16 seconds

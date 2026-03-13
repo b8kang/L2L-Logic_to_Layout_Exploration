@@ -1,0 +1,33 @@
+1-input functions with A : 
+Series/Parallel: no
+Bubble: on
+Generated 2 unique functions.
+Processing patterns from 0 to 1
+
+#####################
+0-th truth table : 10
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.002s
+Solution found!
+Finish 1 transistors loop
+Minimum cost: 1
+Current Solution :
+(VDD, A, Y) 
+
+#####################
+1-th truth table : 01
+
+==================================================
+Trying with num_tr = 1 (current max_num_tr = 16)
+  Trying with num_net = 0, gate_budget = 15
+[Solve]      0.002s
+Solution found!
+Finish 1 transistors loop
+Minimum cost: 2
+Current Solution :
+(VDD, 1_A!, Y) 
+
+Total execution time: 0.02 seconds
