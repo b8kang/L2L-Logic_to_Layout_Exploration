@@ -1,89 +1,191 @@
 # L2L: Logic to Layout Exploration of Standard Cell Library Design
 
-This repository contains artifacts and summaries associated with the following paper:
+This repository contains artifacts and experimental results associated with the following paper:
 
 **L2L: Logic to Layout Exploration of Standard Cell Library Design**  
 Byeonggon Kang, Alan Mishchenko, Masahiro Fujita, Bill Lin, and Chung-Kuan Cheng  
-Will be presented at **DAC 2026**, Long Beach, California, USA
 
-- **Byeonggon Kang**  
-  University of California, San Diego  
-  La Jolla, California, USA  
-  b8kang@ucsd.edu  
+To be presented at **DAC 2026 (Design Automation Conference)**  
+Long Beach, California, USA
 
-- **Chung-Kuan Cheng**  
-  University of California, San Diego  
-  La Jolla, California, USA  
-  ckcheng@ucsd.edu  
+This repository provides artifacts used in the paper, including:
+
+- Generated **standard-cell libraries**
+- **Layout and physical design views**
+- **Timing and power characterization**
+- **Transistor network synthesis summaries**
+- Detailed synthesis experiment logs
+
+---
 
 # Repository Contents
 
-This README explains what each file and folder contains.
+This README explains the structure of the repository and the contents of each folder.
 
 ---
 
-## Circuit_and_Layout/
+# Circuit_and_Layout/
 
-Artifacts for finalized standard-cell libraries (layouts + views).
+Artifacts for finalized standard-cell libraries including layouts and design views.
 
-- **CDL/**
-  - `L2LAO.cdl` - Transistor-level netlists (CDL) for the **Area-Optimized** library.
-  - `L2LMO.cdl` - Transistor-level netlists (CDL) for the **Metal-usage-Optimized** library.
+## CDL/
 
-- **GDS/**
-  - `L2LAO.gds` - GDS layouts for **Area-Optimized** (L2LAO).
-  - `L2LMO.gds` - GDS layouts for **Metal-usage-Optimized** (L2LMO).
+Transistor-level netlists of the generated standard-cell libraries.
 
-- **physical_view/**
-  - `L2LAO.lef` - LEF view (pins, blockages/OBS, geometry) for L2LAO.
-  - `L2LMO.lef` - LEF view for L2LMO.
+- `L2LAO.cdl` ? Transistor-level netlists for the **Area-Optimized (AO)** library
+- `L2LMO.cdl` ? Transistor-level netlists for the **Metal-Usage-Optimized (MO)** library
 
-- **timing_power_view/**
-  - `L2LAO_tt_0.7_25_nldm.lib` - Liberty (NLDM) @ TT/0.7V/25C for L2LAO.
-  - `L2LMO_tt_0.7_25_nldm.lib` - Liberty (NLDM) @ TT/0.7V/25C for L2LMO.
-  - `L2LAO_tt_0.7_25_nldm.db` - Compiled Liberty (.db) for Synopsys tools (L2LAO).
-  - `L2LMO_tt_0.7_25_nldm.db` - Compiled Liberty (.db) for Synopsys tools (L2LMO).
+## GDS/
 
-- **cell_info/**
-  - `cell_report` - Per-cell summary: Cell Name, f, #CPP, #M1/#M2 usage notes.
+Physical layout implementations.
 
----
+- `L2LAO.gds` ? Layouts for **Area-Optimized library**
+- `L2LMO.gds` ? Layouts for **Metal-Usage-Optimized library**
 
-## Logic_to_Transistor_Network_Synthesis/
+## physical_view/
 
-Summaries from transistor network synthesis under different stack bounds and input pools.
+Physical abstraction views used by place-and-route tools.
 
-- **2stack_DP/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with stack height **M=2**, pool **DP** (Dual polarity).
+- `L2LAO.lef` ? LEF view for L2LAO
+- `L2LMO.lef` ? LEF view for L2LMO
 
-- **2stack_Op/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with stack height **M=2**, pool **Op** (permutation-closed).
+## timing_power_view/
 
-- **3stack_DP/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with **M=3**, pool **DP**.
+Timing and power characterization results.
 
-- **3stack_Op/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with **M=3**, pool **Op**.
+- `L2LAO_tt_0.7_25_nldm.lib` ? Liberty NLDM model (TT, 0.7V, 25¡ÆC) for L2LAO
+- `L2LMO_tt_0.7_25_nldm.lib` ? Liberty NLDM model (TT, 0.7V, 25¡ÆC) for L2LMO
+- `L2LAO_tt_0.7_25_nldm.db` ? Compiled Liberty database for Synopsys tools
+- `L2LMO_tt_0.7_25_nldm.db` ? Compiled Liberty database for Synopsys tools
 
-- **4stack_DP/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with **M=4**, pool **DP**.
+## cell_info/
 
-- **4stack_Op/**
-  - `all_logs_summary.txt` - transistor network synthesis summary with **M=4**, pool **Op**.
+Per-cell statistics and summary information.
 
-- **Grid_Scaffold/**
-  - `logic_3input_P_CLASS_result_summary` - Synthesis summary for series-parallel-only runs (synthesis statistics).
+- `cell_report` ? Per-cell summary including:
+  - Cell name
+  - Boolean function
+  - CPP usage
+  - Metal usage (#M1 / #M2)
 
 ---
 
-## Notes
+# Logic_to_Transistor_Network_Synthesis/
 
-- **DP vs. Op**:  
-  - **DP** = Dual Polarity (Primary and it's inversion).  
-  - **Op** = permutation-closed pool (P-equivalent instantiations deduplicated).
+Experimental artifacts from transistor-network synthesis under different **stack bounds** and **input pools**.
 
-- **Stack bound M**: maximum allowed series transistor count during PMOS synthesis.
+Each directory contains both:
 
-- **CPP**: contact-poly-pitch, used as the basic area unit for layouts.
+- **Aggregate summaries** (`all_logs_summary.txt`)
+- **Detailed synthesis logs** (`logic_*_all_topo_*.log`)
 
-- **Full Detail Results** : We provide aggregate statistics and detailed per-function artifacts including multiple optimal solutions for transistor-network synthesis in this repository.
+These logs record transistor-network synthesis results including:
+
+- Enumerated transistor network topologies
+- Valid implementations for Boolean functions
+- Multiple optimal solutions when they exist
+
+These results cover **P-class Boolean functions up to three inputs**.
+
+---
+
+## 2stack_DP/
+
+Synthesis results with stack bound **M = 2** using **DP (Dual Polarity) input pool**.
+
+Files include:
+
+- `all_logs_summary.txt` ? Aggregate synthesis statistics
+- `logic_1input_P_CLASS_all_topo_2staged_final_0_to_1.log`
+- `logic_2input_P_CLASS_all_topo_2staged_final_0_to_7.log`
+- `logic_3input_P_CLASS_all_topo_2staged_final_0_to_67.log`
+
+---
+
+## 2stack_Op/
+
+Synthesis results with stack bound **M = 2** using **Op (permutation-closed input pool)**.
+
+Files include:
+
+- `all_logs_summary.txt`
+- `logic_1input_P_CLASS_all_topo_2staged_final_0_to_1.log`
+- `logic_2input_P_CLASS_all_topo_2staged_final_0_to_7.log`
+- `logic_3input_P_CLASS_all_topo_2staged_final_0_to_67.log`
+
+---
+
+## 3stack_DP/
+
+Synthesis results with stack bound **M = 3** using **DP input pool**.
+
+Contains detailed synthesis logs for 1-, 2-, and 3-input P-class Boolean functions.
+
+---
+
+## 3stack_Op/
+
+Synthesis results with stack bound **M = 3** using **Op input pool**.
+
+Contains detailed synthesis logs for 1-, 2-, and 3-input P-class Boolean functions.
+
+---
+
+## 4stack_DP/
+
+Synthesis results with stack bound **M = 4** using **DP input pool**.
+
+Contains detailed synthesis logs for 1-, 2-, and 3-input P-class Boolean functions.
+
+---
+
+## 4stack_Op/
+
+Synthesis results with stack bound **M = 4** using **Op input pool**.
+
+Contains detailed synthesis logs for 1-, 2-, and 3-input P-class Boolean functions.
+
+---
+
+## Grid_Scaffold/
+
+- `logic_3input_P_CLASS_result_summary`
+
+Synthesis summary for **series-parallel-only transistor network experiments**.
+
+---
+
+# Notes
+
+## DP vs. Op
+
+**DP (Dual Polarity)**  
+Input pool containing both a primary input and its inversion.
+
+**Op (Permutation-Closed Pool)**  
+Input pool where permutation-equivalent input instantiations are deduplicated.
+
+---
+
+## Stack Bound (M)
+
+Maximum allowed number of **series transistors** during PMOS network synthesis.
+
+---
+
+## CPP
+
+Contact Poly Pitch.
+
+CPP is used as the **fundamental unit of cell width** in layout generation.
+
+---
+
+## Detailed Results
+
+This repository provides both:
+
+- **Aggregate statistics**
+- **Detailed per-function synthesis artifacts**
+
+including multiple optimal transistor-network solutions discovered during synthesis.
