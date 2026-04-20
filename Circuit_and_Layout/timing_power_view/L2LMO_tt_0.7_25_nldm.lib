@@ -109,7 +109,7 @@ library (L2LMO_tt_0.7_25) {
     );
   }
   cell (2input0x1_X1) {
-    area : 0;
+    area : 0.02592;
     cell_leakage_power : 9.4769;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -416,7 +416,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (2input0x6_X1) {
-    area : 0;
+    area : 0.02592;
     cell_leakage_power : 9.80143;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -723,7 +723,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x10_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 11.7026;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -1769,7 +1769,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x11_X1_DH_N) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 18.256;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -3037,7 +3037,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x12_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 11.3077;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -3527,7 +3527,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x13_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 17.9142;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -4393,7 +4393,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x14_X1) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 12.9803;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -5407,7 +5407,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x15_X1_DH_P) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 23.455;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -6586,7 +6586,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x16_X1) {
-    area : 0;
+    area : 0.03888;
     cell_leakage_power : 12.9004;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -7436,7 +7436,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x17_X1) {
-    area : 0;
+    area : 0.04536;
     cell_leakage_power : 15.5571;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -8212,7 +8212,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x18_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 18.3372;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -9242,7 +9242,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x19_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 13.7443;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -10256,7 +10256,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x1A_X1_DH_P) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 13.937;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -11524,7 +11524,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x1B_X1_DH_N) {
-    area : 0;
+    area : 0.10368;
     cell_leakage_power : 27.5406;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -12969,7 +12969,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x1C_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 13.4219;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -14148,7 +14148,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x1D_X1_DH_N) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 20.642;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -15253,7 +15253,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x1E_X1) {
-    area : 0;
+    area : 0.04536;
     cell_leakage_power : 13.3638;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -16177,7 +16177,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x1F_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 16.722;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -17207,7 +17207,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x1_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 8.3921;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -17697,7 +17697,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x20_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 13.5739;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -18743,7 +18743,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x23_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 10.8244;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -19789,7 +19789,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x24_X1) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 11.5106;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -20835,7 +20835,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x25_X1) {
-    area : 0;
+    area : 0.04536;
     cell_leakage_power : 11.9971;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -21865,7 +21865,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x26_X1_DH_N) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 14.9199;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -23133,7 +23133,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x27_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 13.5727;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -24312,7 +24312,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x28_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 11.4587;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -25236,7 +25236,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x29_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 10.7993;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -25996,7 +25996,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x2A_X1) {
-    area : 0;
+    area : 0.03888;
     cell_leakage_power : 12.4918;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -26846,7 +26846,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x2B_X1_DH_P) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 12.3825;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -27892,7 +27892,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x2C_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 10.8303;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -28652,7 +28652,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x2D_X1_DH_N) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 19.5363;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -30097,7 +30097,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x2E_X1_DH_N) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 15.8707;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -31365,7 +31365,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x2F_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 12.6982;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -32395,7 +32395,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x2_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 11.6499;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -33441,7 +33441,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x30_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 15.5255;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -34620,7 +34620,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x31_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 14.0249;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -35634,7 +35634,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x32_X1_DH_P) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 15.8917;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -36902,7 +36902,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x33_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 12.9482;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -37948,7 +37948,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x35_X1_DH_P) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 12.5157;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -39127,7 +39127,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x36_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 10.6597;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -39617,7 +39617,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x37_X1_DH_P) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 13.4565;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -40663,7 +40663,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x38_X1) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 13.4616;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -41677,7 +41677,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x39_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 10.8295;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -42437,7 +42437,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x3A_X1_DH_P) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 13.4306;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -43467,7 +43467,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x3B_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 14.8422;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -44513,7 +44513,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x3C_X1) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 12.2548;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -45559,7 +45559,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x3D_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 9.6891;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -46049,7 +46049,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x3E_X1_DH_P) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 7.66812;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -47095,7 +47095,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x3F_X1_DH_P) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 13.5593;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -48363,7 +48363,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x3_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 10.2651;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -49155,7 +49155,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x41_X1_DH_P) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 11.8158;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -50201,7 +50201,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x42_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 9.0819;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -50691,7 +50691,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x4_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 8.50182;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -51181,7 +51181,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x5_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 16.0877;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -52211,7 +52211,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x6_X1) {
-    area : 0;
+    area : 0.04536;
     cell_leakage_power : 15.4701;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -52987,7 +52987,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x7_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 10.8001;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -53747,7 +53747,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x8_X1_DH_N) {
-    area : 0;
+    area : 0.07776;
     cell_leakage_power : 15.3054;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -55015,7 +55015,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0x9_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 12.7702;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -56061,7 +56061,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0xA_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 12.8969;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -57107,7 +57107,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0xB_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 16.6305;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -58137,7 +58137,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0xC_X1_DH_N) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 13.3758;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -59151,7 +59151,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0xD_X1) {
-    area : 0;
+    area : 0.05184;
     cell_leakage_power : 17.5341;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -60001,7 +60001,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0xE_X1_DH_N) {
-    area : 0;
+    area : 0.0648;
     cell_leakage_power : 14.2187;
     pg_pin (VDD) {
       pg_type : primary_power;
@@ -61180,7 +61180,7 @@ library (L2LMO_tt_0.7_25) {
     }
   }
   cell (3input0xF_X1) {
-    area : 0;
+    area : 0.0324;
     cell_leakage_power : 11.3694;
     pg_pin (VDD) {
       pg_type : primary_power;
