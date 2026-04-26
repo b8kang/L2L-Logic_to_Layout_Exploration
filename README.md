@@ -189,3 +189,14 @@ This repository provides both:
 - **Detailed per-function synthesis artifacts**
 
 including multiple optimal transistor-network solutions discovered during synthesis.
+
+## Citation
+
+```bibtex
+@inproceedings{kang2026l2l,
+  title={L2L: Logic to Layout Exploration of Standard Cell Library Design},
+  author={Byeonggon Kang and Alan Mishchenko and Masahiro Fujita and Bill Lin and Chung-Kuan Cheng},
+  booktitle={Proceedings of the Design Automation Conference (DAC)},
+  year={2026}
+}
+```
