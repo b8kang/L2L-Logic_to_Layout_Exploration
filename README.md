@@ -2,8 +2,8 @@
 
 This repository contains artifacts and experimental results associated with the following paper:
 
-**Project page:** https://b8kang.github.io/L2L/  
-**Paper (PDF):** https://b8kang.github.io/L2L/L2L_DAC2026.pdf
+**Project page:** https://b8kang.github.io/L2L-Logic_to_Layout_Exploration/
+**Paper (PDF):** https://b8kang.github.io/L2L-Logic_to_Layout_Exploration/L2L_DAC2026.pdf
 
 **L2L: Logic to Layout Exploration of Standard Cell Library Design**  
 Byeonggon Kang, Alan Mishchenko, Masahiro Fujita, Bill Lin, and Chung-Kuan Cheng  
